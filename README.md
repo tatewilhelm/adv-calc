@@ -9,30 +9,30 @@ also a emulator is recommended. TilEm is a good emulator, its available at http:
 
 ## Variables
 
-A: Input Variable <br>
-B: Input Variable <br>
-C: Input Variable <br>
-D: Input Variable <br>
-E: Output Variable <br>
-F: Output Variable <br>
-G: Output Variable <br>
-H: Output Variable <br>
-I: More Menu Lbl <br>
-J: Rectangle Lbl <br>
-K: Circle Lbl <br>
-L: Triangle Lbl <br>
-M: Trapezoids Lbl <br>
-N: Sphere Lbl <br>
-O: Rectangular Prism Lbl <br>
-P: Intrest Lbl <br>
-Q: Change Percentage Lbl <br>
-R: Discount Lbl <br>
-S: Not Used <br>
-T: Not Used <br>
-U: Not Used <br>
-V: Not Used <br>
-W: Not Used <br>
-X: Exit Lbl <br>
-Y: In/Out Extra <br>
-Z: Start Lbl <br>
+A:  Input Variable <br>
+B:  Input Variable <br>
+C:  Input Variable <br>
+D:  Input Variable <br>
+E:  Output Variable <br>
+F:  Output Variable <br>
+G:  Output Variable <br>
+H:  Output Variable <br>
+I:  More Menu Lbl <br>
+J:  Rectangle Lbl <br>
+K:  Circle Lbl <br>
+L:  Triangle Lbl <br>
+M:  Trapezoids Lbl <br>
+N:  Sphere Lbl <br>
+O:  Rectangular Prism Lbl <br>
+P:  Intrest Lbl <br>
+Q:  Change Percentage Lbl <br>
+R:  Discount Lbl <br>
+S:  Not Used <br>
+T:  Not Used <br>
+U:  Not Used <br>
+V:  Not Used <br>
+W:  Not Used <br>
+X:  Exit Lbl <br>
+Y:  In/Out Extra <br>
+Z:  Start Lbl <br>
 
