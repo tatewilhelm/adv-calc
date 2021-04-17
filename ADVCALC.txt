@@ -1,0 +1,201 @@
+Lbl I
+ClrHome
+Menu("-ADV CALC-","RECTANGLES",L,"CIRCLE",M,"TRIANGLES",N,"TRAPEZOIDS",O,"SPHERES",P,"DOWN",J,"EXIT",Z
+
+Lbl J
+ClrHome
+Menu("-ADV CALC-","UP",I,"REC PRISM",Q,"INTEREST",R,"ORIGINAL/CHANGE",S,"TAX/DISCOUNT",T,"DOWN",K,"EXIT",Z
+
+Lbl K
+ClrHome
+Menu("-ADV CALC-","UP",J,"SQ. PYRAMID",U,"CYLINDER",V,"EXIT",Z
+
+Lbl L
+Disp "BASE"
+Input "",A
+Disp "HEIGHT"
+Input "",B
+ClrHome
+(A+B)*2→E
+A*B→F
+ClrHome
+Disp "PERIMETER"
+Disp E
+Disp "AREA"
+Disp F
+Goto Z
+
+Lbl M
+Disp "DIAMETER"
+Input "",A
+A*3.14→E
+(A/2)^2*3.14→F
+ClrHome
+Disp "CIRCUMFRENCE"
+Disp E
+Disp "AREA"
+Disp F
+Goto Z
+
+
+Lbl N
+Disp "BASE"
+Input "",A
+Disp "HEIGHT"
+Input "",B
+Disp "SIDE 2"
+Input "",C
+Disp "SIDE 3"
+Input "",D
+A+C+D→E
+A*B*.5→F
+ClrHome
+Disp "PERIMETER"
+Disp E
+Disp "AREA"
+Disp F
+Goto Z
+
+
+Lbl O
+Disp "BASE 1"
+Input "",A
+Disp "BASE 2"
+Input "",B
+Disp "HEIGHT"
+Input "",C
+Disp "SIDE 3"
+Input "",D
+Disp "SIDE 4"
+Input "",Y
+(1/2)*(A+B)*C→E
+A+B+D+Y→F
+ClrHome
+Disp "AREA"
+Disp E
+Disp "PERIMETER"
+Disp F
+Goto Z
+
+Lbl P
+Disp "RADIUS"
+Input "",A
+4*3.14*A^2→E
+(4/3)*3.14*A^3→F
+ClrHome
+Disp "SURFACE"
+Disp E
+Disp "VOLUME"
+Disp F
+Goto Z
+
+
+
+Lbl Q
+Disp "LENGTH"
+Input "",A
+Disp "WIDTH"
+Input "",B
+Disp "HEIGHT"
+Input "",C
+A*B*C→E
+(B*C*2)+(A*C*2)→F
+(A*B*2)+(B*C*2)+(A*C*2)→G
+ClrHome
+Disp "VOLUME"
+Disp E
+Disp "L SURFACE"
+Disp F
+Disp "T SURFACE"
+Disp G
+Goto Z
+
+
+Lbl R
+Disp "PRINCIPLE"
+Input "",A
+Disp "RATE (DEC)"
+Input "",B
+Disp "TIME"
+Input "",C
+A*B*C→E
+E+A→F
+A(B+1)^C→G
+G-A→H
+ClrHome
+Disp "SIMPLE INTEREST"
+Disp E
+Disp "SIMPLE BALANCE"
+Disp F
+Disp "COMPLEX INTEREST"
+Disp H
+Disp "COMPLEX BALANCE"
+Disp G
+Goto Z
+
+Lbl S
+Disp "ORIGINAL"
+Input "",A
+Disp "CHANGE"
+Input "",B
+(A-B)/A*100→E
+ClrHome
+Disp "PERCENT"
+Disp E
+Goto Z
+
+
+Lbl T
+Disp "PRICE"
+Input "",A
+Disp "PERCENT (INT)"
+Disp "- FOR DISCOUNTS"
+Input "",B
+A+(A*(B/100)→E
+ClrHome
+Disp "FINAL PRICE"
+Disp E
+Goto Z
+
+
+Lbl U
+Disp "LENGTH"
+Input "",A
+Disp "SLANT HEIGHT"
+Input "",B
+A*A*B/3→E
+A*B*2→F
+(A*B*2)+(A*A)→G
+ClrHome
+Disp "VOLUME"
+Disp E
+Disp "L SURFACE AREA"
+Disp F
+Disp "T SURFACE AREA"
+Disp G
+Goto Z
+
+Lbl V
+Disp "BASE DIAMETER"
+Input "",A
+Disp "HEIGHT"
+Input "",B
+((A/2)*(A/2)*3.14)*B→E
+(3.14*A)*B→F
+F+((A/2)*(A/2)*3.14)→G
+ClrHome
+Disp "VOLUME"
+Disp E
+Disp "L SURFACE AREA"
+Disp F
+Disp "T SURFACE AREA"
+Disp G
+Goto Z
+
+
+
+
+
+
+Lbl Z
+"
