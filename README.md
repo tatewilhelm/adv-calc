@@ -1,7 +1,7 @@
 # adv-calc
 Adv Calc TI BASIC program that can do calculations and basic geometry calculations. Targeted for the TI 83+, and TI 84+. <br>
 <br>
-Adv Calc is under the GPL V3. More information is available at gnu.org, and in the file LICENSE.md.<br>
+Adv Calc is under the GPL V3. More information is available at gnu.org, and in the file LICENSE.<br>
 
 ## Development
 Adv Calc is used with the Tokens IDE for TI BASIC available at https://www.ticalc.org/archives/files/fileinfo/433/43315.html,
