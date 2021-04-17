@@ -6,33 +6,37 @@ Adv Calc is under the GPL V3. More information is available at gnu.org, and in t
 ## Development
 Adv Calc is used with the Tokens IDE for TI BASIC available at https://www.ticalc.org/archives/files/fileinfo/433/43315.html,
 also a emulator is recommended. TilEm is a good emulator, its available at http://lpg.ticalc.org/prj_tilem/download.html. Please note that Capital I does not condone piracy in any form. <br>
+<br>
+Adv Calc is based on a Label system with prompting menus and then going to its respective
 
 ## Variables
 
-A:  Input Variable <br>
-B:  Input Variable <br>
-C:  Input Variable <br>
-D:  Input Variable <br>
-E:  Output Variable <br>
-F:  Output Variable <br>
-G:  Output Variable <br>
-H:  Output Variable <br>
-I:  More Menu Lbl <br>
-J:  Rectangle Lbl <br>
-K:  Circle Lbl <br>
-L:  Triangle Lbl <br>
-M:  Trapezoids Lbl <br>
-N:  Sphere Lbl <br>
-O:  Rectangular Prism Lbl <br>
-P:  Intrest Lbl <br>
-Q:  Change Percentage Lbl <br>
-R:  Discount Lbl <br>
-S:  Not Used <br>
-T:  Not Used <br>
-U:  Not Used <br>
-V:  Not Used <br>
-W:  Not Used <br>
-X:  Exit Lbl <br>
-Y:  In/Out Extra <br>
-Z:  Start Lbl <br>
 
+```
+A:  Input Variable 
+B:  Input Variable 
+C:  Input Variable 
+D:  Input Variable 
+E:  Output Variable 
+F:  Output Variable
+G:  Output Variable 
+H:  Output Variable
+I:  1st Menu Lbl 
+J:  2nd Menu Lbl 
+K:  3rd Menu Lbl 
+L:  Rectangle Lbl 
+M:  Circle Lbl 
+N:  Triangle Lbl 
+O:  Trapezoids Lbl 
+P:  Sphere Lbl 
+Q:  Rectangular Prism Lbl 
+R:  Interest Lbl 
+S:  Change Percentage Lbl 
+T:  Tax / Discount Lbl 
+U:  Sq. Pyramid Lbl
+V:  Cylinder Lbl
+W:  
+X:  
+Y:  In/Out Extra 
+Z:  Exit Lbl 
+```
