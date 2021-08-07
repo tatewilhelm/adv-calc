@@ -5,7 +5,7 @@ Adv Calc is under the GPL V3. More information is available at gnu.org, and in t
 Please also note that Adv Calc should not be used in any testing enviroment where a program is considered cheating, and Adv Calc nor its Contributors doesn't endorse nor is responsible for cheating on any test.
 ## Development
 Adv Calc is used with the Tokens IDE for TI BASIC available at https://www.ticalc.org/archives/files/fileinfo/433/43315.html,
-also a emulator is recommended. TilEm is a good emulator, its available at http://lpg.ticalc.org/prj_tilem/download.html. Please note that Capital I does not condone piracy in any form. <br>
+also a emulator is recommended. TilEm is a good emulator, its available at http://lpg.ticalc.org/prj_tilem/download.html. Please note that adv-calc contributors does not condone piracy in any form. <br>
 <br>
 Adv Calc is based on a Label system with prompting menus and then going to its respective label to ask for attributes then calculating area, surface area, amount, etc.
 
